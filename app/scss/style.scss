@@ -186,6 +186,7 @@
   font-weight: 600;
   line-height: 100%; /* 48px */
   letter-spacing: -2.88px;
+  width: fit-content;
 }
 .social-list {
   display: flex;
@@ -201,6 +202,7 @@
   display: flex;
   gap: 16px;
   background: var(--gradient-2, linear-gradient(110deg, #5116FA -4.77%, #00BBC7 67.09%));
+  position: relative;
 }
 .app-caption {
   flex: 1;
@@ -379,15 +381,17 @@
   font-weight: 400;
   line-height: 20px;
 }
+.about .app-caption {
+  padding-right: 390px;
+}
 .about .app-img img {
   display: block;
-  position: relative;
-  bottom: -40px;
-  right: -20px;
+  position: absolute;
+  bottom: 0;
+  right: 20px;
 }
 .feature {
-  display: flex;
-  gap: 16px;
+  position: relative;
 }
 .feature-caption {
   width: 632px;
@@ -418,8 +422,10 @@
     top: 6px;
   }
 }
-.feature-img {
-  margin-bottom: -100px;
+.feature-img img {
+  position: absolute;
+  right: 0;
+  bottom: -100px;
 }
 .structure {
   display: flex;
@@ -596,9 +602,16 @@
   display: flex;
   gap: 16px;
   height: 100%;
+  position: relative;
 }
-.app-2 .app-img {
-  margin-bottom: -65px;
+.app-1 .app-caption {
+  padding-right: 623px;
+}
+.app-1 .app-img img {
+  position: absolute;
+  right: 30px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 .experts {
   position: relative;
@@ -614,6 +627,11 @@
 }
 .experts-desc {
   margin-top: 24px;
+  color: var(--Black, #121212);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 25.2px */
 }
 .experts-list {
   margin-top: 40px;
@@ -924,9 +942,15 @@
 .for-whom-caption .btn {
   margin-top: 24px;
 }
-.app-3 .app-img {
-  margin-bottom: -100px;
+.app-2 .app-caption {
+  padding-right: 623px;
 }
+.app-2 .app-img img {
+  position: absolute;
+  right: 30px;
+  bottom: -100px;
+}
+
 .bg-black {
   background: var(---colorTextPrimary, #212121)!important;
 }

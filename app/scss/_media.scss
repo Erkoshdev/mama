@@ -30,6 +30,109 @@
   .contact {
     width: 690px;
   }
+  .section {
+    padding: 70px 0;
+  }
+  .about-container {
+    padding: 30px;
+    gap: 30px;
+  }
+  .about-item-title {
+    font-size: 36px;
+  }
+  .about .app-img img {
+    width: 250px;
+  }
+  .about .app-caption {
+    padding-right: 215px;
+  }
+  .section-title {
+    font-size: 48px;
+    letter-spacing: -2px;
+  }
+  .feature-img img {
+    width: 550px;
+    bottom: -70px;
+  }
+  .feature-caption {
+    width: 545px;
+  }
+  .modules {
+    width: 600px;
+  }
+  .module {
+    padding: 17px 24px;
+  }
+  .module-head b {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .app-1 .app-img img {
+    width: 550px;
+  }
+  .tariff-card {
+    padding: 24px 20px;
+  }
+  .tariff-badge {
+    padding: 5px 14px;
+    font-size: 20px;
+  }
+  .tariffs-price {
+    font-size: 40px;
+  }
+  .tariffs-features {
+    margin-top: 30px;
+    gap: 12px;
+  }
+  .tariff-additional p {
+    line-height: 18px;
+  }
+  .for-whom-caption {
+    padding: 24px;
+  }
+  .for-whom-caption h2 {
+    font-size: 44px;
+  }
+  .green-flower-list {
+    gap: 10px;
+  }
+  .green-flower-list li {
+    padding-left: 40px;
+    font-size: 17px;
+    line-height: 130%;
+  }
+  .green-flower-list li:before {
+    width: 24px;
+    height: 24px;
+    top: 0;
+    left: 0;
+  }
+  .for-whom:nth-of-type(2) .for-whom-caption {
+    padding: 24px 40px;
+  }
+  .for-whom-caption h2 br {
+    display: none;
+  }
+  .number-list {
+    gap: 10px;
+  }
+  .number-list li p {
+    font-size: 17px;
+    line-height: 130%;
+  }
+  .number-list li span {
+    width: 35px;
+    height: 35px;
+    font-size: 28px;
+  }
+  .app-2 .app-img img {
+    width: 500px;
+    bottom: -70px;
+  }
+  .faq-item-head {
+    font-size: 24px;
+    line-height: 130%;
+  }
 }
 
 //desktops
@@ -43,8 +146,11 @@
   .scroll-down {
     bottom: 110px;
   }
+  .section {
+    padding: 60px 0;
+  }
   .section-title {
-    font-size: 48px;
+    font-size: 40px;
   }
   .contact {
     width: 510px;
@@ -66,6 +172,82 @@
   .app-title {
     font-size: 32px;
     letter-spacing: -1.12px;
+  }
+  .about .app-img {
+    display: none;
+  }
+  .about .app-caption {
+    padding-right: 0;
+  }
+  .feature-list {
+    margin-top: 20px;
+    gap: 10px;
+  }
+  .feature-caption {
+    width: 500px;
+  }
+  .feature-img img {
+    width: 460px;
+    bottom: -60px;
+    right: -30px;
+  }
+  .modules {
+    width: 500px;
+  }
+  .app-1 .app-caption {
+    padding-right: 450px;
+  }
+  .app-1 .app-img img {
+    width: 450px;
+  }
+  .expert-item {
+    gap: 15px;
+  }
+  .expert-img {
+    width: 150px;
+    height: 190px;
+  }
+  .expert-name {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .expert-detail {
+    margin-top: 15px;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  .btn {
+    padding: 14px 18px;
+    span {
+      font-size: 14px;
+    }
+  }
+  .for-whom {
+    grid-template-columns: 1fr;
+  }
+  .for-whom-img {
+    display: none;
+  }
+  .app-2 .app-caption {
+    padding-right: 450px;
+  }
+  .app-2 .app-img img {
+    width: 450px;
+    bottom: -60px;
+  }
+  .faq-item-head {
+    padding: 15px 56px 15px 15px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .faq {
+    width: 750px;
+  }
+  .faq:before {
+    left: -150px;
+  }
+  .faq-item-body {
+    padding: 0 15px 15px;
   }
 }
 
@@ -223,6 +405,67 @@
   .footer-bottom {
     display: none;
   }
+  .about {
+    flex-direction: column;
+  }
+  .about-container {
+    width: 100%;
+  }
+  .feature-img {
+    display: none;
+  }
+  .feature-caption {
+    width: 100%;
+  }
+  .structure {
+    flex-direction: column;
+  }
+  .structure-desc {
+    width: 100%;
+    margin: 0;
+  }
+  .program {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .program-subtitle {
+    margin-top: 25px;
+  }
+  .modules {
+    width: 100%;
+  }
+  .app-1 .app-caption {
+    padding-right: 0;
+    padding-bottom: 450px;
+  }
+  .app-1 .app-img img {
+    right: initial;
+    top: initial;
+    left: -30px;
+    transform: none;
+    bottom: -20px;
+  }
+  .experts-list {
+    grid-template-columns: 1fr;
+  }
+  .tariffs-list {
+    grid-template-columns: 1fr;
+  }
+  .tariff-card:first-child:before {
+    content: none;
+  }
+  .app-2 .app-caption {
+    padding-right: 0;
+  }
+  .app-2 .app-img {
+    display: none;
+  }
+  .faq {
+    width: 100%;
+  }
+  .faq:before {
+    content: none;
+  }
 }
 
 //phones
@@ -315,6 +558,213 @@
   }
   .app-link {
     padding: 5px 8px;
+  }
+  .section {
+    padding: 24px 0;
+  }
+  .about-container {
+    padding: 16px;
+    gap: 16px;
+  }
+  .about-item-img {
+    text-align: center;
+  }
+  .about-item:nth-of-type(1) .about-item-img img {
+    width: 164px;
+  }
+  .about-item-title {
+    text-align: center;
+    font-size: 28px;
+  }
+  .about-item-description {
+    text-align: center;
+    font-size: 12px;
+  }
+  .about-item:nth-of-type(2) .about-item-img img {
+    width: 102px;
+  }
+  .app-description {
+    font-size: 12px;
+  }
+  .feature-list {
+    margin-top: 16px;
+    gap: 8px;
+  }
+  .feature-list li {
+    font-size: 14px;
+  }
+  .structure {
+    gap: 16px;
+  }
+  .structure-desc {
+    font-size: 16px;
+  }
+  .program-subtitle {
+    margin-top: 16px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .program-desc {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .program {
+    gap: 16px;
+  }
+  .modules {
+    padding: 4px;
+  }
+  .module {
+    padding: 12px;
+  }
+  .module-head span {
+    font-size: 14px;
+  }
+  .module-head b {
+    font-size: 20px;
+    line-height: normal;
+  }
+  .module-body {
+    padding-top: 12px;
+    gap: 12px;
+  }
+  .module-body-primary li {
+    font-size: 14px;
+    line-height: 20px; /* 142.857% */
+  }
+  .module-body-secondary b {
+    font-size: 16px;
+  }
+  .module-body-secondary li {
+    font-size: 14px;
+    line-height: 20px; /* 142.857% */
+  }
+  .app-list {
+    width: 100%;
+    justify-content: center;
+  }
+  .app-1 .app-caption {
+    padding-bottom: 0;
+  }
+  .app-1 .app-img {
+    display: none;
+  }
+  .experts:before {
+    display: none;
+  }
+  .experts-desc {
+    margin-top: 8px;
+    font-size: 16px;
+    line-height: 22px;
+    br {
+      display: none;
+    }
+  }
+  .experts-list {
+    margin-top: 24px;
+  }
+  .expert-img {
+    width: 84px;
+    height: 100px;
+  }
+  .expert-name {
+    font-size: 20px;
+    line-height: 24px; /* 120% */
+  }
+  .expert-speciality {
+    margin-top: 4px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .expert-desc {
+    font-size: 12px;
+    line-height: 16px; /* 133.333% */
+  }
+  .expert-detail {
+    margin-top: 8px;
+    gap: 8px;
+  }
+  .tariffs-desc {
+    margin-top: 8px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .tariffs-list {
+    margin-top: 16px;
+  }
+  .tariff-card {
+    padding: 24px 16px 16px;
+  }
+  .tariff-badge {
+    padding: 8px 16px;
+    font-size: 16px;
+  }
+  .tariffs-price {
+    font-size: 32px;
+  }
+  .tariffs-features {
+    margin-top: 24px;
+  }
+  .for-whom-img {
+    display: block;
+    order: 1;
+    height: 200px;
+    border-radius: 24px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .for-whom-caption {
+    order: 2;
+    padding: 16px;
+    border-radius: 24px;
+  }
+  .for-whom-caption h2 {
+    font-size: 32px;
+    line-height: 100%; /* 32px */
+    letter-spacing: -1.28px;
+  }
+  .for-whom-caption .green-flower-list {
+    margin-top: 16px;
+  }
+  .green-flower-list li {
+    font-size: 14px;
+  }
+  .for-whom:nth-of-type(2) .for-whom-caption {
+    padding: 16px;
+  }
+  .number-list {
+    margin-top: 16px;
+  }
+  .number-list li p {
+    font-size: 14px;
+    line-height: 20px; /* 142.857% */
+  }
+  .number-list li span {
+    left: initial;
+    right: -10px;
+    top: -20px;
+  }
+  .for-whom-caption .btn {
+    margin-top: 16px;
+    width: 100%;
+  }
+  .faq-desc {
+    margin-top: 16px;
+    font-size: 16px;
+  }
+  .faq-list {
+    margin-top: 16px;
+  }
+  .faq-item-head {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .faq-item-body {
+    font-size: 14px;
+    line-height: 20px; /* 142.857% */
   }
 }
 
