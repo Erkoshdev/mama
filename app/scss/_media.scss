@@ -681,6 +681,9 @@
   }
   .feature-list li {
     font-size: 14px;
+    br {
+      display: none;
+    }
   }
   .structure {
     gap: 16px;
