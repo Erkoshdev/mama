@@ -1,0 +1,31 @@
+txtCopy code
+# User-agent directives
+User-agent: *
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /config/
+
+# Allowable files and folders
+Allow: /public/
+Allow: /wp-content/uploads/
+Allow: /sitemap.xml
+
+# Sitemap location
+Sitemap: https://mama-app.kz/sitemap.xml
+
+# Crawl-delay directive for search engines
+Crawl-delay: 10
+
+# Blocking specific bots (example)
+User-agent: BadBot
+Disallow: /
+
+# Allow all content for major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
