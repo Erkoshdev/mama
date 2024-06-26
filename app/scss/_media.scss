@@ -263,6 +263,17 @@
   .social-list {
     grid-template-columns: 1fr 1fr;
   }
+  .structure-left-item h2 {
+    font-size: 90px;
+    line-height: 94px;
+  }
+  .structure-left-item p {
+    font-size: 32px;
+  }
+  .structure-title {
+    font-size: 60px;
+    line-height: 64px;
+  }
 }
 
 //tablets
@@ -688,6 +699,24 @@
   }
   .structure {
     gap: 16px;
+  }
+  .structure-left-item {
+    display: block;
+  }
+  .structure-left-item  + .structure-left-item {
+    margin-top: 15px;
+  }
+  .structure-left-item h2 {
+    width: fit-content;
+    font-size: 60px;
+    line-height: 64px;
+  }
+  .structure-left-item p {
+    font-size: 24px;
+  }
+  .structure-title {
+    font-size: 36px;
+    line-height: 40px;
   }
   .structure-desc {
     font-size: 16px;
