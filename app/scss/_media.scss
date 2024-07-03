@@ -140,6 +140,15 @@
       font-size: 40px;
     }
   }
+
+  //pension
+  .pension-content:before {
+    left: -55px;
+  }
+  .pension-content:after {
+    right: -48px;
+  }
+  //pension
 }
 
 //desktops
@@ -274,6 +283,15 @@
     font-size: 60px;
     line-height: 64px;
   }
+  //pension
+  .pension-content:before, .pension-content:after  {
+    content: none;
+  }
+  .pension-title h2 {
+    font-size: 60px;
+  }
+
+  //pension
 }
 
 //tablets
@@ -528,6 +546,31 @@
     font-size: 24px;
     margin-top: 15px;
   }
+
+
+  //pension
+  .pension {
+    padding: 170px 0 60px;
+    &:before {
+      top: 10px;
+    }
+  }
+  .pension-title h2 {
+    font-size: 45px;
+  }
+  .pension-video {
+    width: 600px;
+    height: 336px;
+  }
+
+  //pension
+
+
+  //mini tariffs
+  .mini-tariffs-list {
+    grid-template-columns: 1fr;
+  }
+  //mini tariffs
 }
 
 //phones
@@ -972,6 +1015,141 @@
     width: 31px;
     height: 31px;
   }
+
+  //checklist
+  .checklist:after, .checklist-content:before {
+    display: none;
+  }
+  .checklist-content {
+    padding: 24px 0;
+  }
+  .checklist-title h2 {
+    font-size: 32px;
+  }
+  .checklist-title p {
+    margin-top: 16px;
+  }
+  .checklist-list {
+    margin-top: 16px;
+    grid-template-columns: 1fr;
+  }
+  .checklist-item {
+    padding: 16px 56px 16px 16px;
+    &:after {
+      width: 32px;
+      height: 32px;
+    }
+    p {
+      font-size: 14px;
+      line-height: 20px;
+    }
+    a {
+      margin-top: 8px;
+      padding: 4px 8px;
+      font-size: 12px;
+      line-height: 16px; /* 133.333% */
+    }
+  }
+  //checklist
+
+  //modules
+  .module-head h6 {
+    margin-top: 4px;
+  }
+  .module-head p {
+    margin-top: 8px;
+  }
+  .module-head span {
+    width: 24px;
+    height: 24px;
+    font-size: 12px;
+    line-height: 16px; /* 133.333% */
+  }
+  .module-primary-item {
+    padding: 10px 0;
+  }
+  .module-body {
+    padding-top: 6px;
+  }
+  .module-primary-item-body {
+    margin-top: 8px;
+  }
+  .module-secondary-item {
+    padding: 10px 0;
+  }
+  .module-secondary-item-head {
+    font-size: 12px;
+    line-height: 16px; /* 133.333% */
+  }
+  .module-secondary-item-body {
+    margin-top: 8px;
+  }
+  //modules
+
+
+  //pension
+  .pension:before {
+    top: 24px;
+    width: 144px;
+    height: 128px;
+  }
+  .pension {
+    padding: 160px 0 30px;
+  }
+  .pension-title h2 {
+    font-size: 32px;
+  }
+  .pension-video {
+    width: 328px;
+    height: 184.27px;
+  }
+  .pension-video i {
+    width: 40px;
+    height: 40px;
+  }
+  //pension
+
+  //mini tariffs
+  .mini-tariffs:before, .mini-tariffs:after {
+    content: none;
+  }
+  .mini-tariffs {
+    margin-top: 24px;
+  }
+  .mini-tariffs .mini-tariffs-subtitle {
+    margin-top: 8px;
+    font-size: 20px;
+    line-height: 24px; /* 120% */
+  }
+  .mini-tariffs-list {
+    margin-top: 16px;
+    gap: 8px;
+  }
+  .mini-tariff {
+    padding: 16px;
+  }
+  .mini-tariff-head {
+    padding-left: 40px;
+    &:before {
+      width: 24px;
+      height: 24px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    p {
+      font-size: 16px;
+    }
+    span {
+      margin-top: 8px;
+      font-size: 16px;
+      line-height: 22px; /* 137.5% */
+    }
+  }
+  .mini-tariff-content li {
+    font-size: 14px;
+  }
+
+  //mini tariffs
 }
 
 
