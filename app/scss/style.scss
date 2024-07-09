@@ -444,6 +444,10 @@
     position: relative;
     padding-left: 52px;
   }
+  li span {
+    color: #FF3D9A;
+    font-weight: 600;
+  }
   li:before {
     content: '';
     background: url("../img/icon/flower-pink.svg") no-repeat center/contain;
@@ -1194,7 +1198,7 @@
     right: -220px;
     top: 35px;
   }
-  video {
+  video, iframe {
     width: 100%;
     height: 100%;
     object-fit: cover;
